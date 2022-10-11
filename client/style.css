@@ -5,8 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'JetBrains Mono', monospace;
-    /* background-color: black; */
-    /* color: rgb(19, 223, 19); */
+    background-color: black; 
+    color: rgb(19, 223, 19);
 
 }
 
@@ -18,12 +18,12 @@ main {
 }
 
 table {
-    margin: 50px auto;;
+    margin: 50px auto;
+    border: 2px solid green;
 }
 
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid black;
 }
 
 th, td {
@@ -31,13 +31,15 @@ th, td {
 }
 
 input {
-    border: none;
-    border-bottom: 1px solid black;
-    outline: none;
+    border: 1px solid green;
+    padding: 5px;
+    
 }
 
 button {
     border: none;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     padding: 5px;
+    width: 100px;
+    margin-top: 20px;
 }
